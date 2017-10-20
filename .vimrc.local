@@ -1,0 +1,42 @@
+inoremap jj <ESC>
+
+" syntax on
+syntax enable
+
+" set background=dark
+" colorscheme solarized
+" colorscheme ir_black
+" colorscheme gruvbox
+colorscheme evening
+
+set hlsearch	"highlight matchs
+set incsearch	"在输入查找内容时，vim就进行匹配
+set ignorecase	"查找时，忽视大小写
+
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-w> <C-w>w
+
+"NERDTree
+nmap <silent> <Leader>e :NERDTreeToggle<CR>
+
+" plasticboy/vim-markdown
+" let g:vim_markdown_folding_level = 6
+
+" vim-instant-markdown
+" let g:instant_markdown_autostart = 0
+" nmap <silent> <Leader>mp :InstantMarkdownPreview<CR>
+" amcco/markdown-preview.vim
+nmap <silent> <Leader>mp :MarkdownPreview<CR>
+nmap <silent> <Leader>ms :MarkdownPreviewStop<CR>
+
+" NERDCommenter
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+" airline
+""""""""airline begin""""""""
+let g:airline_theme="luna"

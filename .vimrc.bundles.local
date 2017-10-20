@@ -1,0 +1,15 @@
+Bundle 'plasticboy/vim-markdown', {'name': 'plasticboy-vim-markdown'}
+" Plugin 'suan/vim-instant-markdown'
+Plugin 'iamcco/mathjax-support-for-mkdp'
+Plugin 'iamcco/markdown-preview.vim'
+Plugin 'mzlogin/vim-markdown-toc' " markdown目录
+Plugin 'dhruvasagar/vim-table-mode' " markdown表格排版
+
+UnBundle 'rust-lang/rust.vim'
+UnBundle 'tpope/vim-markdown'
+UnBundle 'spf13/vim-preview'
+UnBundle 'tpope/vim-cucumber'
+UnBundle 'cespare/vim-toml'
+UnBundle 'quentindecock/vim-cucumber-align-pipes'
+UnBundle 'saltstack/salt-vim'
+
