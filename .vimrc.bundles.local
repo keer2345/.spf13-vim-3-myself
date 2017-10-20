@@ -4,6 +4,8 @@ Plugin 'iamcco/mathjax-support-for-mkdp'
 Plugin 'iamcco/markdown-preview.vim'
 Plugin 'mzlogin/vim-markdown-toc' " markdown目录
 Plugin 'dhruvasagar/vim-table-mode' " markdown表格排版
+Plugin 'nvie/vim-flake8'
+
 
 UnBundle 'rust-lang/rust.vim'
 UnBundle 'tpope/vim-markdown'
