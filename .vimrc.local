@@ -113,3 +113,14 @@ endfunc
 
 " 更新已有目录
 " 使用 :UpdateToc 命令就好了。
+
+
+
+" godlygeek/tabular
+nmap <silent> <Leader>a= :Tabularize /=<CR>
+nmap <silent> <Leader>a- :Tabularize /-><CR>
+nmap <silent> <Leader>a+ :Tabularize /+<CR>
+nmap <silent> <Leader>a: :Tabularize /:<CR>
+nmap <silent> <Leader>a:: :Tabularize /:\zs<CR>
+nmap <silent> <Leader>a, :Tabularize /,<CR>
+nmap <silent> <Leader>a<Bar> :Tabularize /<Bar><CR>
