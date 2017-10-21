@@ -1,2 +1,3 @@
 set relativenumber
 set nospell
+autocmd VimEnter * set nospell
