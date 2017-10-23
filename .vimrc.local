@@ -4,6 +4,9 @@ inoremap jj <ESC>
 syntax enable
 autocmd VimEnter * set nospell
 
+" set nowrap	"自动换行
+set wrap	"自动折行
+
 " set background=dark
 " colorscheme solarized
 " colorscheme ir_black
@@ -81,7 +84,7 @@ let g:pymode_lint_cwindow = 0
 
 
 "代码格式优化化
-map <F6> :call FormartSrc()<CR><CR>
+map <F6> :call FormartSrc()<CR><CR><ESC><ESC>
 
 "定义FormartSrc()
 func FormartSrc()

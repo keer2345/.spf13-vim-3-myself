@@ -8,6 +8,9 @@
     * [Clone my customized spf13-vim](#clone-my-customized-spf13-vim)
 * [Plugin](#plugin)
 * [Feature](#feature)
+    * [Python](#python)
+    * [Markdown](#markdown)
+    * [Shougo/neosnippet.vim](#shougoneosnippetvim)
 
 <!-- vim-markdown-toc -->
 
@@ -35,3 +38,15 @@ ln -s ~/.spf13-vim-3-myself/.vimrc.bundles.local ~/.vimrc.bundles.local
 ~/.spf13-vim-3-myself/.vimrc.local
 ~/.spf13-vim-3-myself/.vimrc.before.local
 ```
+### Python
+- `F6`: Format source with flake8
+- `,r`: Run python
+
+### Markdown
+- `,mp`: Start Markdown Preview
+- `,ms`: Stop Markdown Preview
+- `:GenToGFM`: Generater the markdown catalog
+- `:UpdateToc`: Update the markdown catalog
+### Shougo/neosnippet.vim
+- `C-k`: to select-and-expand a snippet from the Neocomplcache popup (Use C-n and C-p to select it). C-k can also be used to jump to the next field in the snippet.
+- `Tab`: to select the next field to fill in the snippet.
