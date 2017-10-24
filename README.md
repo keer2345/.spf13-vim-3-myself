@@ -11,6 +11,7 @@
     * [Python](#python)
     * [Markdown](#markdown)
     * [Shougo/neosnippet.vim](#shougoneosnippetvim)
+    * [Chiel92/vim-autoformat](#chiel92vim-autoformat)
 
 <!-- vim-markdown-toc -->
 
@@ -50,3 +51,7 @@ ln -s ~/.spf13-vim-3-myself/.vimrc.bundles.local ~/.vimrc.bundles.local
 ### Shougo/neosnippet.vim
 - `C-k`: to select-and-expand a snippet from the Neocomplcache popup (Use C-n and C-p to select it). C-k can also be used to jump to the next field in the snippet.
 - `Tab`: to select the next field to fill in the snippet.
+
+### Chiel92/vim-autoformat
+Provide easy code formatting in Vim by integrating existing code formatters.
+- `F7` Autoformat

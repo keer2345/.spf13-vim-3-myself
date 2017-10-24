@@ -159,3 +159,6 @@ nmap <silent> <Leader>a: :Tabularize /:<CR>
 nmap <silent> <Leader>a:: :Tabularize /:\zs<CR>
 nmap <silent> <Leader>a, :Tabularize /,<CR>
 nmap <silent> <Leader>a<Bar> :Tabularize /<Bar><CR>
+
+" Chiel92/vim-autoformat
+noremap <F7> :Autoformat<CR>

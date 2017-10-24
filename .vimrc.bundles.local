@@ -5,6 +5,7 @@ Plugin 'iamcco/markdown-preview.vim'
 Plugin 'mzlogin/vim-markdown-toc' " markdown目录
 Plugin 'dhruvasagar/vim-table-mode' " markdown表格排版
 Plugin 'nvie/vim-flake8'
+Plugin 'Chiel92/vim-autoformat'
 
 
 UnBundle 'rust-lang/rust.vim'
