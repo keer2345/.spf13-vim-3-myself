@@ -1,4 +1,4 @@
-Bundle 'plasticboy/vim-markdown', {'name': 'plasticboy-vim-markdown'}
+Plugin 'plasticboy/vim-markdown', {'name': 'plasticboy-vim-markdown'}
 " Plugin 'suan/vim-instant-markdown'
 Plugin 'iamcco/mathjax-support-for-mkdp'
 Plugin 'iamcco/markdown-preview.vim'
@@ -15,4 +15,4 @@ UnBundle 'tpope/vim-cucumber'
 UnBundle 'cespare/vim-toml'
 UnBundle 'quentindecock/vim-cucumber-align-pipes'
 UnBundle 'saltstack/salt-vim'
-
+UnBundle 'amirh/HTML-AutoCloseTag'
