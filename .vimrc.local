@@ -41,16 +41,6 @@ nmap <silent> <Leader>e :NERDTreeToggle<CR>
 let NERDTreeShowHidden=0
 let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.class','\.beam']
 
-" plasticboy/vim-markdown
-" let g:vim_markdown_folding_level = 6
-
-" vim-instant-markdown
-" let g:instant_markdown_autostart = 0
-" nmap <silent> <Leader>mp :InstantMarkdownPreview<CR>
-" amcco/markdown-preview.vim
-nmap <silent> <Leader>mp :MarkdownPreview<CR>
-nmap <silent> <Leader>ms :MarkdownPreviewStop<CR>
-
 " NERDCommenter
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
@@ -106,6 +96,16 @@ let g:indent_guides_guide_size = 1
 let g:pymode_lint_cwindow = 0
 
 
+" plasticboy/vim-markdown
+" let g:vim_markdown_folding_level = 6
+
+" vim-instant-markdown
+" let g:instant_markdown_autostart = 0
+" nmap <silent> <Leader>mp :InstantMarkdownPreview<CR>
+" amcco/markdown-preview.vim
+nmap <silent> <Leader>mp :MarkdownPreview<CR>
+nmap <silent> <Leader>ms :MarkdownPreviewStop<CR>
+
 " mzlogin/vim-markdown-toc'
 " 将光标移动到你想放置文章目录的地方，然后运行如下两个命令之一就行：
 "
@@ -119,6 +119,9 @@ let g:pymode_lint_cwindow = 0
 
 " 更新已有目录
 " 使用 :UpdateToc 命令就好了。
+nmap <silent> <Leader>mt :Tocv<CR>
+nmap <silent> <Leader>mg :GenTocGFM<CR>
+nmap <silent> <Leader>mu :UpdateToc<CR>
 
 
 
