@@ -1,10 +1,15 @@
+" markdown
 Plugin 'plasticboy/vim-markdown', {'name': 'plasticboy-vim-markdown'}
 " Plugin 'suan/vim-instant-markdown'
 Plugin 'iamcco/mathjax-support-for-mkdp'
 Plugin 'iamcco/markdown-preview.vim'
 Plugin 'mzlogin/vim-markdown-toc' " markdown目录
 Plugin 'dhruvasagar/vim-table-mode' " markdown表格排版
+
+" python
 Plugin 'nvie/vim-flake8'
+Plugin 'mitsuhiko/vim-jinja'
+
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'heracek/HTML-AutoCloseTag', {'name': 'HTML-AutoCloseTag2'}
 Plugin 'elixir-editors/vim-elixir'
