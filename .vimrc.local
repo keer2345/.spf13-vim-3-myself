@@ -11,7 +11,8 @@ set wrap	"自动折行
 " colorscheme solarized
 " colorscheme ir_black
 " colorscheme gruvbox
-colorscheme evening
+" colorscheme evening
+colorscheme zenburn
 " colorscheme Tomorrow-Night-Eighties
 
 set hlsearch	"highlight matchs
