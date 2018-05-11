@@ -139,3 +139,8 @@ nmap <silent> <Leader>a<Bar> :Tabularize /<Bar><CR>
 
 " Chiel92/vim-autoformat
 noremap <F6> :Autoformat<CR>
+
+
+
+" szw/vim-maximizer
+nnoremap <silent> <Leader>mm :MaximizerToggle<CR>

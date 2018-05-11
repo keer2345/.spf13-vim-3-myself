@@ -14,7 +14,18 @@ Plugin 'Chiel92/vim-autoformat'
 Plugin 'heracek/HTML-AutoCloseTag', {'name': 'HTML-AutoCloseTag2'}
 Plugin 'elixir-editors/vim-elixir'
 
+Plugin 'posva/vim-vue'
+Plugin 'Valloric/MatchTagAlways'
+Plugin 'szw/vim-maximizer'
+Plugin 'Raimondi/delimitMate'
 
+
+" JavaScript
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'ternjs/tern_for_vim'
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
 UnBundle 'rust-lang/rust.vim'
 UnBundle 'tpope/vim-markdown'
 UnBundle 'spf13/vim-preview'
