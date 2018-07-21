@@ -42,6 +42,8 @@ nnoremap <Leader>- :sp
 nmap <silent> <Leader>e :NERDTreeToggle<CR>
 let NERDTreeShowHidden=0
 let NERDTreeIgnore=['\.pyc','\~$','\.swp','\.class','\.beam']
+"保持NERDTree一直打开
+let NERDTreeQuitOnOpen=0
 
 " NERDCommenter
 " Add spaces after comment delimiters by default
@@ -98,7 +100,6 @@ let g:indent_guides_guide_size = 1
 " python-mode
 let g:pymode_lint_cwindow = 0
 
-
 " plasticboy/vim-markdown
 " let g:vim_markdown_folding_level = 6
 
@@ -144,3 +145,7 @@ noremap <F6> :Autoformat<CR>
 
 " szw/vim-maximizer
 nnoremap <silent> <Leader>mm :MaximizerToggle<CR>
+
+" posva/vim-vue
+autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
+autocmd BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
