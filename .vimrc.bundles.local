@@ -15,7 +15,7 @@ Plugin 'heracek/HTML-AutoCloseTag', {'name': 'HTML-AutoCloseTag2'}
 Plugin 'elixir-editors/vim-elixir'
 
 Plugin 'posva/vim-vue'
-Plugin 'Valloric/MatchTagAlways'
+" Plugin 'Valloric/MatchTagAlways'
 Plugin 'szw/vim-maximizer'
 Plugin 'Raimondi/delimitMate'
 
