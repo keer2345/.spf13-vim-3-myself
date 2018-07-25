@@ -24,6 +24,9 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'ternjs/tern_for_vim'
 
+" Status line"
+Plugin 'itchyny/lightline.vim'
+Plugin 'maximbaz/lightline-ale'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 UnBundle 'rust-lang/rust.vim'
@@ -34,3 +37,7 @@ UnBundle 'cespare/vim-toml'
 UnBundle 'quentindecock/vim-cucumber-align-pipes'
 UnBundle 'saltstack/salt-vim'
 UnBundle 'amirh/HTML-AutoCloseTag'
+UnBundle 'Lokaltog/powerline'
+UnBundle 'vim-airline/vim-airline'
+UnBundle 'vim-airline/vim-airline-themes'
+UnBundle 'bling/vim-bufferline'
