@@ -1,0 +1,69 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins configuration
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NERDTree
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let NERDTreeIgnore=['\.py[cd]$', '\~$', '\.swo$', '\.swp$', '^\.git$', '^\.hg$', '^\.svn$', '\.bzr$','\.class','\.beam','__pycache__']
+let g:NERDTreeWinSize=35
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NERDCommenter
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => nathanaelkane/vim-indent-guides
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" set ts=4 sw=4 et
+let g:indent_guides_enable_on_vim_startup = 0
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+
+" python-mode
+let g:pymode_lint_cwindow = 0
+
+" plasticboy/vim-markdown
+" let g:vim_markdown_folding_level = 6
+
+" vim-instant-markdown
+" let g:instant_markdown_autostart = 0
+" nmap <silent> <Leader>mp :InstantMarkdownPreview<CR>
+" amcco/markdown-preview.vim
+nmap <silent> <Leader>mp :MarkdownPreview<CR>
+nmap <silent> <Leader>ms :MarkdownPreviewStop<CR>
+
+" mzlogin/vim-markdown-toc'
+" 将光标移动到你想放置文章目录的地方，然后运行如下两个命令之一就行：
+"
+" :GenTocGFM
+" 生成 GFM 链接风格的文章目录。
+" 适用于 GitHub 仓库里的 Markdown 文件，比如 README.md，还有用于生成 GitBook 电子书的 Markdown 文件。
+
+" :GenTocRedcarpet
+" 生成 Redcarpet 链接风格的文章目录。
+" 适用于使用 Redcarpet 作为 Markdown 解析引擎的 Jekyll 程序或其它地方。
+
+" 更新已有目录
+" 使用 :UpdateToc 命令就好了。
+nmap <silent> <Leader>mt :Tocv<CR>
+nmap <silent> <Leader>mg :GenTocGFM<CR>
+nmap <silent> <Leader>mu :UpdateToc<CR>
+
+
+
+" Chiel92/vim-autoformat
+noremap <F6> :Autoformat<CR>
+
+
+
+" szw/vim-maximizer
+nnoremap <silent> <Leader>mm :MaximizerToggle<CR>
+
+" posva/vim-vue
+autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
+autocmd BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
