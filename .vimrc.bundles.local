@@ -1,10 +1,44 @@
-" markdown
+" Utility
+Plugin 'vim-scripts/BufOnly.vim'
+Plugin 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf'
+Plugin 'benmills/vimux'
+Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'gilsondev/searchtasks.vim'
+Plugin 'tpope/vim-dispatch'
+Plugin 'jceb/vim-orgmode'
+Plugin 'tpope/vim-speeddating'
+
+
+" Generic Programming Support 
+Plugin 'tomtom/tcomment_vim'
+Plugin 'maksimr/vim-jsbeautify'
+Plugin 'neomake/neomake'
+
+" Markdown / Writting
+Plugin 'reedes/vim-pencil'
 Plugin 'plasticboy/vim-markdown', {'name': 'plasticboy-vim-markdown'}
 " Plugin 'suan/vim-instant-markdown'
 Plugin 'iamcco/mathjax-support-for-mkdp'
 Plugin 'iamcco/markdown-preview.vim'
 Plugin 'mzlogin/vim-markdown-toc' " markdown目录
 Plugin 'dhruvasagar/vim-table-mode' " markdown表格排版
+
+" Erlang Support
+Plugin 'vim-erlang/vim-erlang-tags'
+Plugin 'vim-erlang/vim-erlang-runtime'
+Plugin 'vim-erlang/vim-erlang-omnicomplete'
+Plugin 'vim-erlang/vim-erlang-compiler'
+
+" Elixir Support 
+Plugin 'avdgaag/vim-phoenix'
+Plugin 'mmorearty/elixir-ctags'
+Plugin 'BjRo/vim-extest'
+Plugin 'frost/vim-eh-docs'
+Plugin 'slashmili/alchemist.vim'
+Plugin 'tpope/vim-endwise'
+Plugin 'jadercorrea/elixir_generator.vim'
+Plugin 'mhinz/vim-mix-format'
 
 " python
 Plugin 'nvie/vim-flake8'
@@ -28,8 +62,13 @@ Plugin 'ternjs/tern_for_vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'maximbaz/lightline-ale'
 
+" Python
+Plugin 'davidhalter/jedi-vim'
+
+" theme
+Plugin 'colepeters/spacemacs-theme.vim'
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-UnBundle 'rust-lang/rust.vim'
 UnBundle 'tpope/vim-markdown'
 UnBundle 'spf13/vim-preview'
 UnBundle 'tpope/vim-cucumber'
@@ -38,6 +77,12 @@ UnBundle 'quentindecock/vim-cucumber-align-pipes'
 UnBundle 'saltstack/salt-vim'
 UnBundle 'amirh/HTML-AutoCloseTag'
 UnBundle 'Lokaltog/powerline'
+
 UnBundle 'vim-airline/vim-airline'
 UnBundle 'vim-airline/vim-airline-themes'
 UnBundle 'bling/vim-bufferline'
+
+UnBundle 'klen/python-mode'
+UnBundle 'yssource/python.vim'
+UnBundle 'python_match.vim'
+UnBundle 'pythoncomplete'

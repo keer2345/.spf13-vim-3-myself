@@ -87,9 +87,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme monokain
-    " colorscheme desert
-    " colorscheme zenburn
+    colorscheme eva01
 catch
 endtry
 

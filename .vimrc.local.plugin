@@ -24,22 +24,17 @@ let g:indent_guides_enable_on_vim_startup = 0
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
-" python-mode
-let g:pymode_lint_cwindow = 0
 
-" plasticboy/vim-markdown
-" let g:vim_markdown_folding_level = 6
-
-" vim-instant-markdown
-" let g:instant_markdown_autostart = 0
-" nmap <silent> <Leader>mp :InstantMarkdownPreview<CR>
-" amcco/markdown-preview.vim
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Markdown    vim-instant-markdown
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nmap <silent> <Leader>mp :MarkdownPreview<CR>
 nmap <silent> <Leader>ms :MarkdownPreviewStop<CR>
 
-" mzlogin/vim-markdown-toc'
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Markdown    mzlogin/vim-markdown-toc
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 将光标移动到你想放置文章目录的地方，然后运行如下两个命令之一就行：
-"
 " :GenTocGFM
 " 生成 GFM 链接风格的文章目录。
 " 适用于 GitHub 仓库里的 Markdown 文件，比如 README.md，还有用于生成 GitBook 电子书的 Markdown 文件。
@@ -55,15 +50,26 @@ nmap <silent> <Leader>mg :GenTocGFM<CR>
 nmap <silent> <Leader>mu :UpdateToc<CR>
 
 
-
-" Chiel92/vim-autoformat
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Chiel92/vim-autoformat
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 noremap <F6> :Autoformat<CR>
 
 
-
-" szw/vim-maximizer
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => szw/vim-maximizer
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <silent> <Leader>mm :MaximizerToggle<CR>
 
-" posva/vim-vue
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => posva/vim-vue
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 autocmd BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
+
+
+
+let g:pymode_python = 'python3'
+let g:pymode_options = 1
+
