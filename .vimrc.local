@@ -87,7 +87,8 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme eva01
+    " colorscheme eva01
+    colorscheme solarized
 catch
 endtry
 
