@@ -73,3 +73,5 @@ autocmd BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
 let g:pymode_python = 'python3'
 let g:pymode_options = 1
 
+nmap <silent> <Leader>ii :Isort<CR>
+

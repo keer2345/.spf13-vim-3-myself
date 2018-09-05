@@ -43,6 +43,7 @@ Plugin 'mhinz/vim-mix-format'
 " python
 Plugin 'nvie/vim-flake8'
 Plugin 'mitsuhiko/vim-jinja'
+Plugin 'fisadev/vim-isort'
 
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'heracek/HTML-AutoCloseTag', {'name': 'HTML-AutoCloseTag2'}

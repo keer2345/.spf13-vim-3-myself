@@ -159,8 +159,8 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
-nnoremap <Leader>\ :vs
-nnoremap <Leader>- :sp
+nnoremap <Leader>\ :vs 
+nnoremap <Leader>- :sp 
 
 
 """"""""""""""""""""""""""""""
