@@ -21,6 +21,8 @@ ln -s ~/.spf13-vim-3-myself/.vimrc.local ~/.vimrc.local
 ln -s ~/.spf13-vim-3-myself/.vimrc.before.local ~/.vimrc.before.local
 ln -s ~/.spf13-vim-3-myself/.vimrc.bundles.local ~/.vimrc.bundles.local
 ln -s ~/.spf13-vim-3-myself/.vimrc.local.plugin ~/.vimrc.local.plugin
+
+sudo apt install vim-gnome
 ```
 
 ## Configuration
