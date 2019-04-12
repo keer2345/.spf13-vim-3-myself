@@ -91,7 +91,11 @@ Neomake is a plugin for Vim/Neovim to asynchronously run programs.
 
 ### Markdown / Writting
 #### reedes/vim-pencil
-#### iamcco/markdown-preview.vim
+#### iamcco/markdown-preview.nvim
+```
+cd ~/.vim/bundle/markdown-preview.nvim
+yarn
+```
 - `,mp`: Start Markdown Preview
 - `,ms`: Stop Markdown Preview
 #### mzlogin/vim-markdown-toc
