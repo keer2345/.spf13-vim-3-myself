@@ -44,7 +44,7 @@ Plugin 'mhinz/vim-mix-format'
 " python
 Plugin 'nvie/vim-flake8'
 Plugin 'mitsuhiko/vim-jinja'
-Plugin 'fisadev/vim-isort'
+" Plugin 'fisadev/vim-isort'
 
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'heracek/HTML-AutoCloseTag', {'name': 'HTML-AutoCloseTag2'}
@@ -91,3 +91,4 @@ UnBundle 'pythoncomplete'
 
 UnBundle 'iamcco/mathjax-support-for-mkdp'
 UnBundle 'iamcco/markdown-preview.vim'
+UnBundle 'fisadev/vim-isort'
