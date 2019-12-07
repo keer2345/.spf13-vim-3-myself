@@ -49,6 +49,10 @@ nmap <silent> <Leader>mt :Tocv<CR>
 nmap <silent> <Leader>mg :GenTocGFM<CR>
 nmap <silent> <Leader>mu :UpdateToc<CR>
 
+" markdown-preview.nvim
+" specify browser to open preview page
+" default: ''
+let g:mkdp_browser = 'google-chrome-stable'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Chiel92/vim-autoformat
